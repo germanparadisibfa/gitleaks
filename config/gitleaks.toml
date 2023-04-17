@@ -508,7 +508,8 @@ regex = '''(?i)(?:key|api|token|secret|client|passwd|password|auth|access)(?:[0-
 secretGroup = 1
 entropy = 3.5
 keywords = [
-    "key","api","token","secret","client","passwd","password","auth","access",
+#    "key","api","token","secret","client","passwd","password","auth","access",
+    "key","token","secret","passwd","password","auth","access",
 ]
 [rules.allowlist]
 stopwords= [
